@@ -40,7 +40,7 @@
         <Authors>AmrAlSayed0</Authors>
         <Owners>AmrAlSayed0</Owners>
         <Copyright>© AmrAlSayed0. All rights reserved.</Copyright>
-        <PackageTags>facebook shimmer views xamarin android monodroid</PackageTags>
+        <PackageTags>google flexbox flexlayout views xamarin android monodroid</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageProjectUrl>https://github.com/AmrAlSayed0/Xamarin.Android.Google.Android.Flexbox</PackageProjectUrl>
