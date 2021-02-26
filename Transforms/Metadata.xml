@@ -1,0 +1,4 @@
+﻿<metadata>
+    <attr path="/api/package[@name='com.google.android.flexbox']"
+          name="managedName" >Google.Android.Flexbox</attr>
+</metadata>

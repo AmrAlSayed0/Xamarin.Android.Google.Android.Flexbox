@@ -1,0 +1,157 @@
+﻿<enum-method-mappings>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="getAlignContent"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.AlignContent" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="getAlignItems"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.AlignItems" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="getFlexDirection"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.FlexDirection" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="getFlexWrap"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.FlexWrap" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="getJustifyContent"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.JustifyContent" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="getShowDividerHorizontal"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.DividerMode" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="getShowDividerVertical"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.DividerMode" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="setAlignContent"
+                parameter="alignContent"
+                clr-enum-type="Google.Android.Flexbox.AlignContent" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="setAlignItems"
+                parameter="alignItems"
+                clr-enum-type="Google.Android.Flexbox.AlignItems" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="setFlexDirection"
+                parameter="flexDirection"
+                clr-enum-type="Google.Android.Flexbox.FlexDirection" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="setFlexWrap"
+                parameter="flexWrap"
+                clr-enum-type="Google.Android.Flexbox.FlexWrap" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="setJustifyContent"
+                parameter="justifyContent"
+                clr-enum-type="Google.Android.Flexbox.JustifyContent" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="setShowDivider"
+                parameter="dividerMode"
+                clr-enum-type="Google.Android.Flexbox.DividerMode" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="setShowDividerHorizontal"
+                parameter="dividerMode"
+                clr-enum-type="Google.Android.Flexbox.DividerMode" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout" >
+        <method jni-name="setShowDividerVertical"
+                parameter="dividerMode"
+                clr-enum-type="Google.Android.Flexbox.DividerMode" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout$LayoutParams" >
+        <method jni-name="getAlignSelf"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.AlignItems" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayout$LayoutParams" >
+        <method jni-name="setAlignSelf"
+                parameter="alignSelf"
+                clr-enum-type="Google.Android.Flexbox.AlignItems" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="FlexboxLayoutManager"
+                parameter="flexDirection"
+                clr-enum-type="Google.Android.Flexbox.FlexDirection" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="FlexboxLayoutManager"
+                parameter="flexWrap"
+                clr-enum-type="Google.Android.Flexbox.FlexWrap" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="getAlignContent"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.AlignContent" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="getAlignItems"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.AlignItems" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="getFlexDirection"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.FlexDirection" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="getFlexWrap"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.FlexWrap" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="getJustifyContent"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.JustifyContent" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="setAlignContent"
+                parameter="alignContent"
+                clr-enum-type="Google.Android.Flexbox.AlignContent" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="setAlignItems"
+                parameter="alignItems"
+                clr-enum-type="Google.Android.Flexbox.AlignItems" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="setFlexDirection"
+                parameter="flexDirection"
+                clr-enum-type="Google.Android.Flexbox.FlexDirection" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="setFlexWrap"
+                parameter="flexWrap"
+                clr-enum-type="Google.Android.Flexbox.FlexWrap" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
+        <method jni-name="setJustifyContent"
+                parameter="justifyContent"
+                clr-enum-type="Google.Android.Flexbox.JustifyContent" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager$LayoutParams" >
+        <method jni-name="getAlignSelf"
+                parameter="return"
+                clr-enum-type="Google.Android.Flexbox.AlignItems" />
+    </mapping>
+    <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager$LayoutParams" >
+        <method jni-name="setAlignSelf"
+                parameter="alignSelf"
+                clr-enum-type="Google.Android.Flexbox.AlignItems" />
+    </mapping>
+</enum-method-mappings>
