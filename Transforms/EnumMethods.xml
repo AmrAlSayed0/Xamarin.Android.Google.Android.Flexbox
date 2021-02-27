@@ -84,16 +84,20 @@
                 parameter="alignSelf"
                 clr-enum-type="Google.Android.Flexbox.AlignItems" />
     </mapping>
+    <!--
     <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
-        <method jni-name="FlexboxLayoutManager"
-                parameter="flexDirection"
-                clr-enum-type="Google.Android.Flexbox.FlexDirection" />
+        <constructor jni-name="FlexboxLayoutManager"
+                     parameter="flexDirection"
+                     clr-enum-type="Google.Android.Flexbox.FlexDirection" />
     </mapping>
+    -->
+    <!--
     <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
-        <method jni-name="FlexboxLayoutManager"
-                parameter="flexWrap"
-                clr-enum-type="Google.Android.Flexbox.FlexWrap" />
+        <constructor jni-name="FlexboxLayoutManager"
+                     parameter="flexWrap"
+                     clr-enum-type="Google.Android.Flexbox.FlexWrap" />
     </mapping>
+    -->
     <mapping jni-class="com/google/android/flexbox/FlexboxLayoutManager" >
         <method jni-name="getAlignContent"
                 parameter="return"

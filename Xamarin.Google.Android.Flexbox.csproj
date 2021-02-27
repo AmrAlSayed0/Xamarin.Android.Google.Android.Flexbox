@@ -45,7 +45,7 @@
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageProjectUrl>https://github.com/AmrAlSayed0/Xamarin.Android.Google.Android.Flexbox</PackageProjectUrl>
         <RepositoryUrl>https://github.com/AmrAlSayed0/Xamarin.Android.Google.Android.Flexbox</RepositoryUrl>
-        <PackageVersion>2.0.1.0</PackageVersion>
+        <PackageVersion>2.0.1.1</PackageVersion>
         <RepositoryType>git</RepositoryType>
         <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     </PropertyGroup>
@@ -80,5 +80,13 @@
     <ItemGroup>
         <None Remove="Transforms\*.xml" />
         <TransformFile Include="Transforms\*.xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Xamarin.AndroidX.Annotation"
+                          Version="1.1.0" />
+        <PackageReference Include="Xamarin.AndroidX.Core"
+                          Version="1.1.0" />
+        <PackageReference Include="Xamarin.AndroidX.RecyclerView"
+                          Version="1.0.0" />
     </ItemGroup>
 </Project>

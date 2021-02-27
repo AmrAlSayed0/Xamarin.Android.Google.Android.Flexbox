@@ -1,4 +1,10 @@
 ﻿<metadata>
     <attr path="/api/package[@name='com.google.android.flexbox']"
           name="managedName" >Google.Android.Flexbox</attr>
+    <attr path="/api/package[@name='com.google.android.flexbox']/class[@name='FlexboxLayoutManager']/constructor[@name='FlexboxLayoutManager' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='int']]/parameter[@name='flexDirection']"
+          name="enumType" >Google.Android.Flexbox.FlexDirection</attr>
+    <attr path="/api/package[@name='com.google.android.flexbox']/class[@name='FlexboxLayoutManager']/constructor[@name='FlexboxLayoutManager' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='flexDirection']"
+          name="enumType" >Google.Android.Flexbox.FlexDirection</attr>
+    <attr path="/api/package[@name='com.google.android.flexbox']/class[@name='FlexboxLayoutManager']/constructor[@name='FlexboxLayoutManager' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='flexWrap']"
+          name="enumType" >Google.Android.Flexbox.FlexWrap</attr>
 </metadata>
