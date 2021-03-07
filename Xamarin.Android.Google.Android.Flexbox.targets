@@ -3,12 +3,16 @@
 <Project ToolsVersion="4.0"
          xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
     <ItemGroup>
-        <ProguardConfiguration Include="$(MSBuildThisFileDirectory)..\..\proguard\proguard.txt" />
+        <ProguardConfiguration Include="$(MSBuildThisFileDirectory)..\proguard\proguard.txt"
+                               Condition="Exists('$(MSBuildThisFileDirectory)..\proguard\proguard.txt')" />
     </ItemGroup>
     <PropertyGroup>
         <AndroidManifestMerger Condition=" '$(AndroidManifestMerger)' == '' " >manifestmerger.jar</AndroidManifestMerger>
     </PropertyGroup>
     <ItemGroup>
-        <AndroidAarLibrary Include="$(MSBuildThisFileDirectory)..\..\aar\com.google.android.flexbox.aar" />
+        <AndroidJavaLibrary Include="$(MSBuildThisFileDirectory)..\jar\com.google.android.flexbox.jar"
+                            Condition="Exists('$(MSBuildThisFileDirectory)..\jar\com.google.android.flexbox.jar')" />
+        <AndroidAarLibrary Include="$(MSBuildThisFileDirectory)..\aar\com.google.android.flexbox.aar"
+                           Condition="Exists('$(MSBuildThisFileDirectory)..\aar\com.google.android.flexbox.aar')" />
     </ItemGroup>
 </Project>
