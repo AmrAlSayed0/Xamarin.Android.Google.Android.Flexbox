@@ -91,10 +91,10 @@
                   Condition="Exists('Jars\$(MavenGroupId).$(MavenArtifactId)-$(MavenArtifactVersion).jar')" />
         <!-- Add the extracted jars as the main source of binding, if it exists. This is mainly for libraries distributed as aar files -->
         <!-- The aar files needs to be extracted to a folder named the same name as the maven artifact ID. -->
-        <InputJar Include="Jars\$(MavenArtifactId)\classes.jar"
-                  Condition="Exists('Jars\$(MavenArtifactId)\classes.jar')" />
-        <InputJar Include="Jars\$(MavenArtifactId)\libs\*.jar"
-                  Condition="Exists('Jars\$(MavenArtifactId)\libs\')" />
+        <InputJar Include="Jars\$(MavenGroupId).$(MavenArtifactId)-$(MavenArtifactVersion)\classes.jar"
+                  Condition="Exists('Jars\$(MavenGroupId).$(MavenArtifactId)-$(MavenArtifactVersion)\classes.jar')" />
+        <InputJar Include="Jars\$(MavenGroupId).$(MavenArtifactId)-$(MavenArtifactVersion)\libs\*.jar"
+                  Condition="Exists('Jars\$(MavenGroupId).$(MavenArtifactId)-$(MavenArtifactVersion)\libs\')" />
         <!-- Packs the jar or aar file into the nuget package. -->
         <None Include="Jars\$(MavenGroupId).$(MavenArtifactId)-$(MavenArtifactVersion).jar"
               Condition="Exists('Jars\$(MavenGroupId).$(MavenArtifactId)-$(MavenArtifactVersion).jar')"
